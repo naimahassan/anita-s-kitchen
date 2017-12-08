@@ -68,5 +68,20 @@
         .header1{
             float:right;
         }
+        .header2 {
+            float:left;
+        }
+        .drinktext {
+            float:left;
+        }
+        .row {
+            padding-top:10%;
+        }
+        .lunch{background-image: url("../images/foodtop/lunch.jpg");
+            height:170px;
+            text-align: center;
+            color: white;
+            padding-top: 30px;
+            font-size: 25px;}
 
     
