@@ -43,21 +43,27 @@
         background-image: url("../img/foodtop/breakfast.jpg");     
         color: white;
         height:350px; 
-        background-repeat: no-repeat;     
+        background-repeat: no-repeat;
+        padding:10%;     
         }
 
         .lunch{         
         background: url("../img/foodtop/lunch.jpg");
         color: white;
         height:350px;
-        background-repeat: no-repeat;      
+        background-repeat: no-repeat;
+        padding:10%;      
         }
 
         .dinner {
         background-image: url("../img/foodtop/dinner.jpg");
         color: white;
         height:350px; 
-        background-repeat: no-repeat;     
+        background-repeat: no-repeat;
+        padding:10%;     
+        }
+        .fastfoodtext{
+            float:right;
         }
 
     
