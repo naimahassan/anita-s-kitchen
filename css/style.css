@@ -123,8 +123,8 @@
     border-right: 2px solid black;
    }
 
-  .footer background-img{background-image: url("../img/backgrounds/subscribe.jpg");
-    background-repeat:no-repeat;
+  .footer{
+    background: url("../img/backgrounds/subscribe.jpg");
   }
   
   .email-title{color:white;
@@ -136,9 +136,9 @@
   }
   .footer-menu {
     padding: 20px;
-  
   }
   .Tocenter{margin-left: 47%;}
+
   .nav-btn {
     display: block;
     font-size: 40px;
@@ -147,7 +147,15 @@
     color: white;
   }
   
+  #myNav {
+    display: block;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: left;
+    color: white;
+    z-index: 1;  
   }
+  
   .overlay {
       height: 100%;
       width: 0;
@@ -167,6 +175,7 @@
       width: 100%;
       text-align: center;
       margin-top: 30px;
+      z-index: 10;
   }
   
   .overlay a {
@@ -176,6 +185,7 @@
       color: #818181;
       display: block;
       transition: 0.3s;
+      z-index: 1;
   }
   
   .overlay a:hover, .overlay a:focus {
