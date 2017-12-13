@@ -1,125 +1,202 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-                <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-                <link href="css/style.css" rel="stylesheet" type="text/css">
-                <script src="js/jquery-3.2.1.js"></script>
-                <script src="js/scripts.js"></script>
-            <title>anitas kitchen</title>          
-            
-        </head>
-        <body>
-            <div class="container-fluid">
-                <div class="landing-img">
-                <img src="logoBig.png" id="img-align"><br><br><br><br>
-                <p class="text-color">WE PROVIDE THE BEST FOOD</p>
-                <P class="text-color" >THE <strong>RIGHT PRICE</strong></P>
-                </div>
-            </div>
+<html>
 
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>anitas kitchen</title>
+
+</head>
+
+<body>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <div id="header-backgroung" class="w3-container w3-animate-bottom">
+    <img src="img/logoBig.png" id="image-logo" class="wow bounceIn data-wow-delay=" 1000ms " data-wow-duration="4s "" />
+    <p>we provide the best food at the
+      <strong>right price</strong>
+    </p>
+
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-3 col-md-3" id="hour-party-float">
+        <div class="happy-hour" id="happy">
+          <p>Happy hour</p>
         </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xs-3 col-md-3" id="hour-party-float">
-              <div class="happy-hour" id="happy">
-                   <p>Happy hour</p>
-              </div>
-              <div class="party-time" id="party">
-                <p>party time</p>
-              </div>
-            </div>
-    
-            <div class="col-md-3 breakfast">
-              <p>Breakfast</p>
-            </div>
-            <div class="col-md-3 lunch">
-              <p>Lunch</p>
-            </div>
-             <div class="col-md-3 dinner">
-              <p>Dinner</p>
-            </div>
-          </div>
-        </div> 
-        
-
-<div class="row">
-<div class="col-md-7">
-  <img src="img/fastFood1.jpg">
-  <img src="img/fastFood2.jpg">
-</div>
-<div class="col-md-1">
-
-</div>
-<div class="col-md-4">
-    <div class="header1">
-        <h1><strong>Fast Food</strong></h1>
-        <h2>You'll love our delicious fast food</h2>
+        <div class="party-time" id="party">
+          <p>party time</p>
+        </div>
       </div>
-        <p class="fastfoodtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut ac lacus quis orci tincidunt porta vitae quis lorem. Maecenas id sem id ex lacinia porttitor a id diam. Nullam in diam enim. Aliquam erat volutpat. Quisque condimentum tincidunt ante. Nunc velit nunc, suscipit et tristique at, egestas sit amet tellus. </p>
-</div>
-</div>
 
-<div class="row">
-    <div class="col-md-7">
-      <img src="img/drink1.jpg">
-      <img src="img/drink2.jpg">
-    </div>
-    <div class="col-md-1">
-    
-    </div>
-    <div class="col-md-4">
-        <div class="header2">
-            <h1><strong>Drinks</strong></h1>
-            <h2>we also provide delicious drinks</h2>
-          </div>
-            <p class="drinktext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut ac lacus quis orci tincidunt porta vitae quis lorem. Maecenas id sem id ex lacinia porttitor a id diam. Nullam in diam enim. Aliquam erat volutpat. Quisque condimentum tincidunt ante. Nunc velit nunc, suscipit et tristique at, egestas sit amet tellus. </p>
-    </div>
-    </div>
-
-
-    <div class="container-fluid" id="backgroun-image">
-      <div class="row">
-          <div class="col-md-3 product1" >
-            <p>Fast Food</p>
-          </div>
-
-          <div class="col-md-3 backgroung-sect">
-            <p>Drinks</p>
-          </div>
-
-          <div class="col-md-3 backgroung-sect">
-            <p>Chicken</p>
-          </div>
-
-          <div class="col-md-3 backgroung-sect">
-            <p>Rice</p>
-          </div>
-
-         <div class="menu-images">
-                  <img src="img/fastfood/chickenBurger.jpg">
-                  <img src="img/fastfood/beefBurger.jpg">
-                  <img src="img/fastfood/chickenPizza.jpg">
-          </div>
-
-         <div class="col-md-4 menu-text">
-            <p>Beef Burger</p>
-          </div>
-
-         <div class="col-md-4 menu-text">
-            <p>Chicken Burger</p>
-          </div>
-
-         <div class="col-md-4 menu-text">
-            <p>Chicken Pizza</p>
-          </div>
-
-       
-       </div>
+      <div class="col-xs-3 breakfast">
+        <p>Breakfast</p>
       </div>
-    
-</body>    
-</html>
+      <div class="col-xs-3 lunch">
+        <p>Lunch</p>
+      </div>
+      <div class="col-xs-3 dinner">
+        <p>Dinner</p>
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="float-left">
+          <img src="img/fastFood2.jpg">
+          <img src="img/fastFood1.jpg">
+        </div>
+      </div>
+
+
+
+
+      <div class="col-md-6">
+        <div class="float-right">
+          <h2 style="font-size: 60px;font-style: italic;text-align: center;">Fast Food</h2>
+          <h6 style="font-size: 20px; text-align: center; font-style: bold;">you will love our delicous food</h6>
+          <p style="font-size:17px;">Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididnunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in re prehenderit in volup tate velit esse cillum dolore eu fugiat nulla parriatur.
+            Exce teur sint occaecat cupi datat non proident</p>
+          <br>
+          <a href="" class="btn btn-primary">VIEW GALLERY &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Drinks</h2>
+        <h6 style="font-size: 30px;">we also produce delicious drinks</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididnunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla parriatur.
+          Exce teur sint occaecat cupi datat non proident</p>
+        <a href="" class="btn btn-primary">VIEW GALLERY &#8594;</a>
+      </div>
+      <div class="float-right" id="float-right">
+        <div class="col-xs-6 ">
+          <img src="img/drink1.jpg "  >
+          <img src="img/drink2.jpg "  >
+        </div>
+      </div>
+  
+      </div>
+    </div>
+    <br>
+    <br>
+  
+    <div class="container-fluid " id="backgroun-image">
+           <div class="row well wow rotateIn data-wow-delay="1000ms" data-wow-duration="2s" " id="fastfood-row ">
+              <div class="col-md-3 product1 " >
+                <p>Fast Food</p>
+              </div>
+  
+              <div class="col-md-3 backgroung-sect ">
+                <p>Drinks</p>
+              </div>
+  
+              <div class="col-md-3 backgroung-sect ">
+                <p>Chicken</p>
+              </div>
+  
+              <div class="col-md-3 backgroung-sect ">
+                <p>Rice</p>
+              </div>
+  
+             <div class="menu-images ">
+                      <img src="img/fastfood/beefBurger.jpg ">
+                      <img src="img/fastfood/chickenBurger.jpg ">
+                      <img src="img/fastfood/chickenPizza.jpg ">
+              </div>
+  
+             <div class="col-md-4 menu-text ">
+                <p>Chicken Burger</p>
+              </div>
+  
+             <div class="col-md-4 menu-text ">
+                <p>Beef Burger</p>
+              </div>
+  
+             <div class="col-md-4 menu-text ">
+                <p>Chicken Pizza</p>
+              </div>
+  
+           </div>
+    </div>
+           <br />
+           <br />
+           <br />
+      <div class="container">
+          <div class="row well">
+            <div class="col-xs-8 align-images-center ">
+              <h6 style="color:red; text-align: center; "> Our Happy Customers</h6>
+                <br />
+                <br /> 
+                <p style="color: black; "> George R1chard<p>
+                  <p style="color:black;font-size: 12px; ">Great food Menu is awesome, their foods are not only great but also in the right price. I'll highly recommend them.</p>
+  
+              <img src="img/customers/p1.png " class="customer-images ">
+              <img src="img/customers/p2.png " class="customer-images ">
+              <img src="img/customers/p3.png " class="customer-images ">
+            </div>
+            
+            <div class="col-xs-3 ">
+              <h4 style="padding-left: 70px; padding-top: 8px; ">About Menu</h4>
+              <p style="padding-left: 30px; padding-top: 5px; ">We are mainly a little team of 7 members Great food Menu is awesome, their foods are not only great but also in the right price. I'll highly recommend them</p>
+            </div>
+          </div>
+         <div class="footer background-image-footer " style="padding: 40px; background-attachment: fixed; ">
+          <div class="email ">
+            <h4 class="email-title ">Get our daily food items delivered to your email</h4>
+            <form class="form-inline ">
+              <div class="form-group section-center ">
+                <input type="text " name=" " class="form-control ">
+                <button class="btn btn-danger " onclick="myFunction() ">subscribe</button>
+                <P id="subscribe "></P>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="footer-menu backgroung-img ">
+          <div class="Tocenter ">
+           <h2 style="color: white; "><img src="img/footerlogos/logo_white.png " alt=" "> MENU</h2>
+            <p>Thats what we are</p>
+             <div class="social-panel ">
+               <img src="img/footerlogos/facebook.png ">
+               <img src="img/footerlogos/twitter.png ">
+               <img src="img/footerlogos/pinterest.png ">
+             </div>
+             <p>2016 menu restaurant</p>
+          </div>
+        </div>
+      </div>
    
+</body>
+
+</html>
