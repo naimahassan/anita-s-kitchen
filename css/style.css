@@ -35,26 +35,25 @@
     padding-left:0px;
   
   }
-  .breakfast{height:160px;
+  .breakfast{height:200px;
     margin: 0px;
-    height:30%;
     background-image: url("../img/foodtop/breakfast.jpg");
     text-align: center;
     color: white;
     vertical-align: middle;
     padding: 80px;
-  
-  
+    width:20%;
   }
-  .lunch{height:160px;
+  .lunch{height:200px;
     margin: 0px;
     background-image: url("../img/foodtop/lunch.jpg");
     text-align: center;
     color: white;
     vertical-align: middle;
     padding: 80px;
+    width:20%;
   }
-  .dinner{height:160px;
+  .dinner{height:200px;
     margin: 0px; 
     background-image: url("../img/foodtop/dinner.jpg");
     text-align: center;
@@ -62,6 +61,7 @@
     vertical-align: middle;
     padding: 80px;
     overflow: hidden;
+    width:20%;
   }
   #button{background-color: grey;}
 
@@ -70,19 +70,38 @@
   height:350px;
   width: 50%;
   display: block;
+  overflow: hidden;
 }
 #backgroun-image{
   background-image: url("../img/backgrounds/foodsBg.jpg");
   /* display:flex;
   justify-content: center;
   align-items: center; */
-  height:300px;
+  height:400px;
+  background-repeat:no repeat;
   }
+.main-2{
+  width:80%;
+  height:40%;
+  background-color:white;
+  padding-bottom:30px;
+  padding:30px;
+  margin:50px;
+}
+.main-3{
+  width:100%;
+  height:40%;
+  background-color:white;
+  padding-bottom:30px;
+  padding:30px;
+  margin:50px;
+  box-shadow:90%;
+}
+
+
   #float-right{
     float:right;
   }
-
-
 
   .float-right {
       float:right;
@@ -104,9 +123,7 @@
   .align-images-center{padding-left:120px;
     border-right: 2px solid black;
    }
-  
-  
-  
+
   .background-image-footer{background-image: url("../img/backgrounds/subscribe.jpg");
     background-repeat:no-repeat;
   }
