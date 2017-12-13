@@ -81,16 +81,13 @@
   background-repeat:no repeat;
   }
 .main-2{
-  width:70%;
+  width:80%;
   height:30%;
   background-color:white;
-  margin-top:5%;
   text-align: center;
-  
-}
-.main-2 img{
-  padding-top:10%;
- 
+  padding-left:20px;
+  padding-top:40px;
+  margin-top: 50px;
 }
 .main-3{
   width:100%;
@@ -115,7 +112,7 @@
 
   #fastfood-row{
     margin :50px;
-    background-color: white;
+
   }
   .menu-images{padding:50px;}
   .menu-text p{text-align: center;
